@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7845a328de4530c4ea1eb93f02237aff, type: 3}
+  m_Name: Beat_16
+  m_EditorClassIdentifier: 
+  curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: -0.0013759453
+      value: 0.7201247
+      inSlope: 17.533718
+      outSlope: 17.533718
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.261309
+    - serializedVersion: 3
+      time: 0.04176106
+      value: 0.9874369
+      inSlope: -2.0981543
+      outSlope: -2.0981543
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.046573766
+    - serializedVersion: 3
+      time: 1.0040565
+      value: 0.0025183
+      inSlope: 0.027759334
+      outSlope: 0.027759334
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.08038954
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  effects:
+  - effectType: 0
+    from: 0
+    to: 0.7
+    imageIndex: 0
+    colorFrom: {r: 0, g: 0, b: 0, a: 0}
+    colorTo: {r: 0, g: 0, b: 0, a: 0}
+    duration: 0.7
+    priority: 4
+  - effectType: 1
+    from: 0
+    to: 0.5
+    imageIndex: 0
+    colorFrom: {r: 0, g: 0, b: 0, a: 0}
+    colorTo: {r: 0, g: 0, b: 0, a: 0}
+    duration: 1
+    priority: 4
+  - effectType: 2
+    from: 0
+    to: 100
+    imageIndex: 0
+    colorFrom: {r: 0, g: 0, b: 0, a: 0}
+    colorTo: {r: 0, g: 0, b: 0, a: 0}
+    duration: 4
+    priority: 4
+  - effectType: 3
+    from: 7
+    to: 20
+    imageIndex: 0
+    colorFrom: {r: 0, g: 0, b: 0, a: 0}
+    colorTo: {r: 0, g: 0, b: 0, a: 0}
+    duration: 4
+    priority: 4
+  - effectType: 5
+    from: 7
+    to: 20
+    imageIndex: 0
+    colorFrom: {r: 0, g: 0, b: 0, a: 0}
+    colorTo: {r: 0, g: 0.71642184, b: 1, a: 1}
+    duration: 4
+    priority: 3
+  - effectType: 5
+    from: 7
+    to: 20
+    imageIndex: 1
+    colorFrom: {r: 0, g: 0, b: 0, a: 0}
+    colorTo: {r: 0.6004262, g: 0, b: 1, a: 1}
+    duration: 2
+    priority: 3
